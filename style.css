@@ -317,3 +317,110 @@
     transform: translateX(-50%);
 }
 }
+@media (max-width: 370px){
+    .sites::before{
+        content: "";
+        position: absolute;
+        bottom: -600px;
+        left: 37%;
+        width: 250px;
+        height: 3px;
+        background: linear-gradient(to right, blue, red, orange, blue, green, red);
+        transform: translateX(-50%);
+    }
+    .sites::after {
+        content: 'Children & Websites';
+        position: absolute;
+        bottom: -607px;
+        left: 37%;
+       padding: 5px;
+       font-size: 20px;
+       color: #111;
+        background:  rgb(45 212 191);
+        transform: translateX(-50%);
+    }
+    .apps::before{
+        content: "";
+        position: absolute;
+        bottom: -1250px;
+        left: 30%;
+        width: 200px;
+        height: 3px;
+        background: linear-gradient(to right, blue, red, orange, blue, green, red);
+        transform: translateX(-50%);
+    }
+    .apps::after {
+        content: 'Children & Apps';
+        position: absolute;
+        bottom: -1257px;
+        left: 30%;
+       padding: 5px;
+       font-size: 20px;
+       color: #111;
+        background: rgb(6 182 212);
+        transform: translateX(-50%);
+}
+.ai::before{
+    content: "";
+    position: absolute;
+    bottom: -1920px;
+    left: 20%;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.ai::after {
+    content: 'Children & AI';
+    position: absolute;
+    bottom: -1927px;
+    left: 20%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(45 212 191);
+    transform: translateX(-50%);
+}
+.brains::before{
+    content: "";
+    position: absolute;
+    bottom: -2700px;
+    left: 28%;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.brains::after {
+    content: 'Google & brains';
+    position: absolute;
+    bottom: -2707px;
+    left: 28%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
+    transform: translateX(-50%);
+}
+.impact::before{
+    content: "";
+    position: absolute;
+    bottom: -3550px;
+    left: 30%;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.impact::after {
+    content: 'General Impact';
+    position: absolute;
+    bottom: -3557px;
+    left: 30%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(45 212 191);
+    transform: translateX(-50%);
+}
+}
