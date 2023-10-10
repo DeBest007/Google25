@@ -85,7 +85,7 @@
 .impact::before{
     content: "";
     position: absolute;
-    bottom: -2490px;
+    bottom: -3460px;
     left: 18%;
     width: 400px;
     height: 3px;
@@ -95,7 +95,7 @@
 .impact::after {
     content: 'General Impact';
     position: absolute;
-    bottom: -2497px;
+    bottom: -3467px;
     left: 19%;
    padding: 5px;
    font-size: 20px;
@@ -103,7 +103,156 @@
     background: rgb(45 212 191);
     transform: translateX(-50%);
 }
-@media (max-width: 690px){
+.testimonials::before{
+    content: "";
+    position: absolute;
+    bottom: -2490px;
+    left: 22%;
+    width: 400px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.testimonials::after {
+    content: 'Childrens Testimonies';
+    position: absolute;
+    bottom: -2498px;
+    left: 22%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
+    transform: translateX(-50%);
+}
+@media (max-width: 625px){
+    .sites::before{
+        content: "";
+        position: absolute;
+        bottom: -700px;
+        left: 37%;
+        width: 250px;
+        height: 3px;
+        background: linear-gradient(to right, blue, red, orange, blue, green, red);
+        transform: translateX(-50%);
+    }
+    .sites::after {
+        content: 'Children & Websites';
+        position: absolute;
+        bottom: -807px;
+        left: 37%;
+       padding: 5px;
+       font-size: 20px;
+       color: #111;
+        background:  rgb(45 212 191);
+        transform: translateX(-50%);
+    }
+    .apps::before{
+        content: "";
+        position: absolute;
+        bottom: -1270px;
+        left: 30%;
+        width: 200px;
+        height: 3px;
+        background: linear-gradient(to right, blue, red, orange, blue, green, red);
+        transform: translateX(-50%);
+    }
+    .apps::after {
+        content: 'Children & Apps';
+        position: absolute;
+        bottom: -1277px;
+        left: 30%;
+       padding: 5px;
+       font-size: 20px;
+       color: #111;
+        background: rgb(6 182 212);
+        transform: translateX(-50%);
+}
+.ai::before{
+    content: "";
+    position: absolute;
+    bottom: -1830px;
+    left: 20%;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.ai::after {
+    content: 'Children & AI';
+    position: absolute;
+    bottom: -1837px;
+    left: 20%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(45 212 191);
+    transform: translateX(-50%);
+}
+.brains::before{
+    content: "";
+    position: absolute;
+    bottom: -2590px;
+    left: 28%;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.brains::after {
+    content: 'Google & brains';
+    position: absolute;
+    bottom: -2597px;
+    left: 28%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
+    transform: translateX(-50%);
+}
+.impact::before{
+    content: "";
+    position: absolute;
+    bottom: -5340px;
+    left: 30%;
+    width: 200px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.impact::after {
+    content: 'General Impact';
+    position: absolute;
+    bottom: -5347px;
+    left: 30%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(45 212 191);
+    transform: translateX(-50%);
+}
+.testimonials::before{
+    content: "";
+    position: absolute;
+    bottom: -3370px;
+    left: 42%;
+    width: 400px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.testimonials::after {
+    content: 'Childrens Testimonies';
+    position: absolute;
+    bottom: -3378px;
+    left: 42%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
+    transform: translateX(-50%);
+}
+}
+@media (max-width: 562px){
     .sites::before{
         content: "";
         position: absolute;
@@ -191,7 +340,7 @@
 .impact::before{
     content: "";
     position: absolute;
-    bottom: -3340px;
+    bottom: -5340px;
     left: 30%;
     width: 200px;
     height: 3px;
@@ -201,12 +350,33 @@
 .impact::after {
     content: 'General Impact';
     position: absolute;
-    bottom: -3347px;
+    bottom: -5347px;
     left: 30%;
    padding: 5px;
    font-size: 20px;
    color: #111;
     background: rgb(45 212 191);
+    transform: translateX(-50%);
+}
+.testimonials::before{
+    content: "";
+    position: absolute;
+    bottom: -3370px;
+    left: 42%;
+    width: 400px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.testimonials::after {
+    content: 'Childrens Testimonies';
+    position: absolute;
+    bottom: -3378px;
+    left: 42%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
     transform: translateX(-50%);
 }
 }
@@ -298,7 +468,7 @@
 .impact::before{
     content: "";
     position: absolute;
-    bottom: -3650px;
+    bottom: -4650px;
     left: 30%;
     width: 200px;
     height: 3px;
@@ -308,7 +478,7 @@
 .impact::after {
     content: 'General Impact';
     position: absolute;
-    bottom: -3657px;
+    bottom: -4657px;
     left: 30%;
    padding: 5px;
    font-size: 20px;
@@ -316,6 +486,27 @@
     background: rgb(45 212 191);
     transform: translateX(-50%);
 }
+/* .testimonials::before{
+    content: "";
+    position: absolute;
+    bottom: -5570px;
+    left: 42%;
+    width: 400px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.testimonials::after {
+    content: 'Childrens Testimonies';
+    position: absolute;
+    bottom: -5578px;
+    left: 42%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
+    transform: translateX(-50%);
+} */
 }
 @media (max-width: 370px){
     .sites::before{
@@ -405,7 +596,7 @@
 .impact::before{
     content: "";
     position: absolute;
-    bottom: -3550px;
+    bottom: -5600px;
     left: 30%;
     width: 200px;
     height: 3px;
@@ -415,12 +606,33 @@
 .impact::after {
     content: 'General Impact';
     position: absolute;
-    bottom: -3557px;
+    bottom: -5607px;
     left: 30%;
    padding: 5px;
    font-size: 20px;
    color: #111;
     background: rgb(45 212 191);
+    transform: translateX(-50%);
+}
+.testimonials::before{
+    content: "";
+    position: absolute;
+    bottom: -3570px;
+    left: 42%;
+    width: 400px;
+    height: 3px;
+    background: linear-gradient(to right, blue, red, orange, blue, green, red);
+    transform: translateX(-50%);
+}
+.testimonials::after {
+    content: 'Childrens Testimonies';
+    position: absolute;
+    bottom: -3578px;
+    left: 42%;
+   padding: 5px;
+   font-size: 20px;
+   color: #111;
+    background: rgb(6 182 212);
     transform: translateX(-50%);
 }
 }
